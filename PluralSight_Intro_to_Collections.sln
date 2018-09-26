@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortArray", "SortArray\Sort
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindElements", "FindElements\FindElements.csproj", "{AF0DC1EC-2F50-4997-A44A-85139E4045EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collection_Interfaces_Count", "Collection_Interfaces_Count\Collection_Interfaces_Count.csproj", "{D1F09C68-6C51-478A-9DB3-5624B8A3587E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{AF0DC1EC-2F50-4997-A44A-85139E4045EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF0DC1EC-2F50-4997-A44A-85139E4045EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF0DC1EC-2F50-4997-A44A-85139E4045EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1F09C68-6C51-478A-9DB3-5624B8A3587E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1F09C68-6C51-478A-9DB3-5624B8A3587E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1F09C68-6C51-478A-9DB3-5624B8A3587E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1F09C68-6C51-478A-9DB3-5624B8A3587E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
