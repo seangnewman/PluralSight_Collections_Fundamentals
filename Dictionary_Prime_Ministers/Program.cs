@@ -11,7 +11,7 @@ namespace Dictionary_Prime_Ministers
         static void Main(string[] args)
         {
             var primeMinisters = new Dictionary<string, PrimeMinister>
-            (new UncasedStringEqualityComparer())
+            (new UncasedStringComparer())
             {
                 {"JC", new PrimeMinister("James Callaghan", 1976)},
                 {"MT", new PrimeMinister("Margaret Thatcher", 1979)},
