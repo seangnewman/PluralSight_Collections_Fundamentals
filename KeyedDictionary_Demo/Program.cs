@@ -11,14 +11,23 @@ namespace KeyedDictionary_Demo
     {
         static void Main(string[] args)
         {
-            var PrimeMinisters = new Dictionary<int, PrimeMinister>()
+            var PrimeMinisters = new PrimeMinistersByYearDictionary()
             {
-                { 1974, new PrimeMinister("James Callaghan", 1974)},
-                { 1979, new PrimeMinister("Margret Thatcher", 1979)},
-                { 1997, new PrimeMinister("Tony Blair", 1997)}
+                new PrimeMinister("James Callaghan", 1974),
+                new PrimeMinister("Margret Thatcher", 1979),
+                new PrimeMinister("Tony Blair", 1997)
             };
 
-            PrimeMinisters.Add(1990, new PrimeMinister("John Major", 1990));
+
+
+
+            PrimeMinisters.Add(new PrimeMinister("John Major", 1990));
+
+
+
+            var list = (IList<PrimeMinister>) PrimeMinisters;
+            Console.WriteLine("First PM is {0}", list[0]);
+
             Console.WriteLine("TB is {0}", PrimeMinisters[1997]) ;
 
             foreach (var primeMinister in PrimeMinisters)
@@ -28,9 +37,6 @@ namespace KeyedDictionary_Demo
 
         }
 
-        //class PrimeMinistersByYearDictionary:KeyedCollection<int, PrimeMinister>
-        //{
-
-        //}
+         
     }
 }

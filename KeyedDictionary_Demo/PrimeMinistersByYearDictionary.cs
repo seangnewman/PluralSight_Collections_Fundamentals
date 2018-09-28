@@ -10,7 +10,8 @@ namespace KeyedDictionary_Demo
     {
         protected override int GetKeyForItem(PrimeMinister item)
         {
-            throw new NotImplementedException();
+            return item.YearElected;
         }
     }
+
 }
